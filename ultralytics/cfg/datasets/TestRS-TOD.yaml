@@ -1,0 +1,16 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\\codesmall\\ultralytics\\RS-TOD200 # dataset root dir
+train: train/images # train images (relative to 'path') 1052 images
+val: val/images # val images (relative to 'path') 225 images
+
+
+# Classes
+nc: 5
+names:
+  0: Small Vehicle
+  1: Large Vehicle
+  2: Ship
+  3: Airplane
+  4: Storage Tank
